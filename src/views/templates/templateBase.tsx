@@ -4,7 +4,7 @@ const TemplateBase = ({ children }: Html.PropsWithChildren) => {
       <head>
         <meta charset='UTF-8' />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-        <link rel='stylesheet' href='public/globals.css' />
+        <link rel='stylesheet' href='/public/globals.css' />
         <script src='https://unpkg.com/htmx.org@1.9.12'></script>
         <title>Toolhunt - find good tools!</title>
       </head>

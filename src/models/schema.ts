@@ -18,4 +18,5 @@ CREATE TABLE IF NOT EXISTS analytics (
     visits INTEGER DEFAULT 1,
     FOREIGN KEY (tool_id) REFERENCES tools (id)
 );
+
 `)

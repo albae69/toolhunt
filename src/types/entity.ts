@@ -3,7 +3,7 @@ export interface ITool {
   name: string
   description: string
   category: string
-  image: string
+  image: string | Blob
   url: string
   visits: number
   verified: number

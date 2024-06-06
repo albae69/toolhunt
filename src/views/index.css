@@ -18,3 +18,9 @@
     @apply bg-slate-900 text-sm font-medium placeholder:font-normal placeholder:text-slate-600 w-full rounded-lg px-4 py-3 border-2 border-slate-800 focus:outline-none focus:border-slate-400 transition duration-200;
   }
 }
+
+@layer components {
+  .msg-error {
+    @apply p-4 rounded-lg text-center bg-rose-800 text-rose-200;
+  }
+}
