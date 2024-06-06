@@ -1,0 +1,21 @@
+{
+  "name": "toolhunt",
+  "version": "1.0.50",
+  "scripts": {
+    "tw:run": "bunx tailwindcss -i src/views/index.css -o public/globals.css --watch",
+    "dev": "bun run --watch src/index.ts",
+    "start": "concurrently \"bun dev\" \"bun tw:run\""
+  },
+  "dependencies": {
+    "@elysiajs/html": "^1.0.2",
+    "@elysiajs/static": "^1.0.3",
+    "@paralleldrive/cuid2": "^2.2.2",
+    "concurrently": "^8.2.2",
+    "elysia": "latest",
+    "tailwindcss": "^3.4.4"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}
